@@ -1,9 +1,7 @@
 .App {
   text-align: center;
 }
-
-.nav{
-  background-color: pink;
+#nav-container{
+  border: 1px solid red;
 }
-
 
