@@ -1,5 +1,5 @@
 import './App.css';
-import { Button,Navbar,Container,Nav } from 'react-bootstrap';
+import { Navbar,Container,Nav } from 'react-bootstrap';
 
 
 function App() {
@@ -32,7 +32,6 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
-      <Button variant="primary">Primary</Button>{' '}
     </div>
   );
 }
