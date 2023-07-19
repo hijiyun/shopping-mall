@@ -1,5 +1,11 @@
 body{
-  background-color: rgb(254, 255, 236) 
+  background-color: rgb(255, 255, 246)
+}
+
+.main-bg{
+  background-image: url('./cloudemotion.png');
+  width: 100%; 
+  height: 100vh;
 }
 
 .App {
@@ -10,14 +16,22 @@ body{
 }
 
 .me-auto{
-  border: 1px solid blue;
   margin-left: 50px;
+}
+
+.nav-left{
+  display: flex;
+  margin-top: 40px;
+}
+.nav-right{
+  display: flex;
+  margin-top: 40px;
 }
 
 #nav{
   padding: 0 100px;
   margin: auto 0;
-  background-color: rgb(254, 255, 236) !important;
+  background-color: rgb(255, 255, 246) !important;
   font-weight: 500;
   font-size: 13px;
 }
