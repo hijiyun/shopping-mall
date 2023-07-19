@@ -1,5 +1,6 @@
 import './App.css';
 import { Navbar,Container,Nav } from 'react-bootstrap';
+import { CiSearch } from "react-icons/ci";
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
               <Nav.Link href="#features" className='login'>LOGIN</Nav.Link>
               <Nav.Link href="#pricing" className='cart'>CART</Nav.Link>
               <Nav.Link href="#pricing" className='search'>
-                <a href="#" alt="돋보기">찾기</a>
+                <a href="#" alt="돋보기"><CiSearch color='black' /></a>
               </Nav.Link>
           </Nav>
         </Container>
