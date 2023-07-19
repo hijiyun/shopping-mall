@@ -1,7 +1,24 @@
 .App {
-  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 99;
 }
 #nav-container{
   border: 1px solid red;
+}
+
+.nav-icon{
+  font-weight: lighter;
+  width: 25px;
+  margin-right: 10px;
+  color: skyblue;
+  }
+#nav{
+  padding: 0 100px;
+  margin: auto 0;
+}
+a{
+  text-decoration: none;
 }
 
