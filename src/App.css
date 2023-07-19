@@ -21,4 +21,36 @@
 a{
   text-decoration: none;
 }
+.nav-insta{
+  color: black;
+}
+
+.dropdown{
+  position : relative;
+  display : inline-block;
+}
+
+.community-content{
+  display : none;
+  position : absolute;
+  z-index : 1; /*다른 요소들보다 앞에 배치*/
+}
+
+.community-content a{
+  display : block;
+  color: black;
+  transition: all ease 2s 0s;
+  color: rgb(255, 92, 168);
+  font-weight: 400;
+}
+
+.dropdown:hover .community-content{
+  display: block;
+  transition: all ease 2s 0s;
+}
+.dropdown:hover{
+  color: rgb(101, 101, 101);
+  transition: 0.1s ease-in-out;
+
+}
 

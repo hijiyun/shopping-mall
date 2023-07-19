@@ -9,8 +9,18 @@ function App() {
         <Container id='nav-container'>
           {/* <Navbar.Brand href="#home"></Navbar.Brand> */}
           <Nav className="me-auto">
-            <Nav.Link href="#69c037tures">
-            <a href="https://www.instagram.com/j___y______/">instagram</a>
+            <Nav.Link href="#features">
+            <a className='nav-insta' href="https://www.instagram.com/j___y______/">Instagram</a>
+            </Nav.Link>
+            <Nav.Link href="#">
+              <div className='dropdown'>
+                <div className='nav-community'>Community</div>
+                <div className='community-content'>
+                  <a href="#">notice</a>
+                  <a href="#">QnA</a>
+                  <a href="#">review</a>
+                </div>
+              </div>
             </Nav.Link>
             <Nav.Link href="#home">
               <a href="#home">
