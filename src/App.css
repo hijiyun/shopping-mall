@@ -3,9 +3,10 @@ body{
 }
 
 .main-bg{
-  background-image: url('./cloudemotion.png');
+  background-image: url('./img/cloudemotion.png');
   width: 100%; 
   height: 100vh;
+  background-position: center;
 }
 
 .App {
@@ -94,5 +95,33 @@ a{
   margin-right: 10px;
   font-size: 20px;
   padding: 3px;
+}
+
+
+.main2{
+  margin-top: 18.75rem;
+  background-color: rgb(255, 233, 236);
+}
+
+.main2-img{
+  width: 100%;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.main2-text h2{
+  color: #545454;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  padding: 30px 0 10px;
+}
+
+.sub{
+  color: #a8a8a8;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
 }
 
