@@ -1,33 +1,41 @@
+body{
+  background-color: rgb(254, 255, 236) 
+}
+
 .App {
   position: fixed;
   width: 100%;
   top: 0px;
   z-index: 99;
 }
-#nav-container{
-  border: 1px solid red;
+
+.me-auto{
+  border: 1px solid blue;
+  margin-left: 50px;
 }
 
-.nav-icon{
-  font-weight: lighter;
-  width: 25px;
-  margin-right: 10px;
-  color: skyblue;
-  }
 #nav{
   padding: 0 100px;
   margin: auto 0;
+  background-color: rgb(254, 255, 236) !important;
+  font-weight: 500;
+  font-size: 13px;
 }
 a{
   text-decoration: none;
 }
 .nav-insta{
-  color: black;
+  color: rgb(81, 81, 81);
+  margin-right: 50px;
+}
+.nav-insta:hover{
+  color: rgb(101, 101, 101);
 }
 
 .dropdown{
   position : relative;
   display : inline-block;
+  margin-right: 200px;
 }
 
 .community-content{
@@ -51,6 +59,25 @@ a{
 .dropdown:hover{
   color: rgb(101, 101, 101);
   transition: 0.1s ease-in-out;
+}
 
+.logo{
+  margin-right: 100px;
+  padding: 50px;
+  align-items: center;
+}
+
+.login{
+  margin-right: 50px;
+  margin-left: 100px;
+}
+
+.cart{
+  margin-right: 50px;
+}
+
+.search{
+  color: rgb(81, 81, 81);
+  margin-right: 10px;
 }
 
