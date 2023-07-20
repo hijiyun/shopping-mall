@@ -54,7 +54,7 @@ function App() {
           <a href="#">
             <img className='main2-img' src="https://cloudemotion.kr/web/product/medium/202306/1c49cb28b5d836f13873fb1879ce1b0b.webp" alt="사진1" />
             <div className='desc'>
-              <strong>[MD pick] 글램핏 데일리 T</strong>
+              <strong className='main2-name'>[MD pick] 글램핏 데일리 T</strong>
               <span>27,600원</span>
             </div>
           </a>
