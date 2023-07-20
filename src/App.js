@@ -63,17 +63,17 @@ function App() {
           <a href="#">
             <img className='main2-img' src="https://cloudemotion.kr/web/product/medium/202307/403cb649e88101eb5f00c375e291858a.webp" alt="사진2" />
             <div className='desc'>
-              <strong>[MD pick] 글램핏 데일리 T</strong>
-              <span>27,600원</span>
+              <strong>[MD pick] 도쿄 in 워싱 T</strong>
+              <span>32,400원</span>
             </div>
           </a>
         </Col>
         <Col>
           <a href="#">
-            <img className='main2-img' src="https://cloudemotion.kr/web/product/medium/202305/d99aaee08c94b35c0cdf9c577de1265e.webp" alt="img3" />
+            <img className='main2-img' src="https://cloudemotion.kr/web/product/big/202306/5dec647b832570dfee3c7ee91228faa9.webp" alt="img3" />
             <div className='desc'>
-              <strong>[MD pick] 글램핏 데일리 T</strong>
-              <span>27,600원</span>
+              <strong>네스 트위드 점프수트 PT (벨트SET)</strong>
+              <span>39,800원</span>
             </div>
           </a>
         </Col>
