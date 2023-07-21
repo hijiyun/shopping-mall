@@ -2,7 +2,7 @@ let data = [
     {
         id : 0,
         title : "[MD pick] 글램핏 데일리 T",
-        price : "27,600원"
+        price : "27,600원",
     },
     {
         id : 1,
@@ -45,3 +45,5 @@ let data = [
         price : "40,000원"
     }
 ]
+
+export default data;
