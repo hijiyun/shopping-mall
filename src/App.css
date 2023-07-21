@@ -104,10 +104,15 @@ a{
   background-color: rgb(255, 233, 236);
 }
 
+.main2-text{
+  padding: 30px;
+}
+
 .main2-img{
   width: 100%;
-    box-sizing: border-box;
-    padding: 2px;
+  box-sizing: border-box;
+  padding: 2px;
+  justify-content: space-between;
 }
 
 .main2-text h2{
@@ -120,7 +125,8 @@ a{
 }
 
 .items{
-  display: inline-block;
+  width: 100%;
+  align-items: center;
 }
 
 .sub{
@@ -131,18 +137,29 @@ a{
 }
 
 .desc{
-  border: 1px solid red;
   margin: 0 auto;
   padding: 0 0px;
   font-size: 12px;
   line-height: 18px;
   text-align: center;
   color: black;
+  margin-bottom: 50px;
+
 }
 .main2-name{
   display: block;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
   margin: 4px auto;
 }
+.color{
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 9px 3.5px 2px;
+  /* border: 1px solid red; */
+}
+
+
 
